@@ -1,6 +1,12 @@
-import truthTableV1_5DE as tt5DE
+import truthTableV1_6DE as tt6DE
 
-tt5DE.mDefault("(P im Q)[P Q]")
+tt6DE.mDefault("(P im (ne Q))[P Q]")
 print()
-tt5DE.mDefault("(((P1 or P2) and ((P1 im Q) and (P2 im Q))) im Q)[P1 P2 Q]")
+tt6DE.mDefault("(Q im (ne P))[P Q]")
+
+
+
+
+
+
 
